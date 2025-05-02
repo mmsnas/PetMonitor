@@ -1,16 +1,23 @@
 {
   "name": "petmonitor-signaling-server",
   "version": "1.0.0",
-  "description": "Basic WebRTC signaling server for PetMonitor using Node.js and Socket.IO",
+  "description": "WebRTC Signaling Server for PetMonitor App",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.8.1"
   },
-  "author": "Manus",
-  "license": "ISC"
+  "engines": { 
+    "node": ">=18.0.0" 
+  }
 }
-
